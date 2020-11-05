@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Ppicontainer from './Containers/Ppicontainer';
 import * as serviceWorker from './serviceWorker';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import $ from "jquery";
+import popper from "popper.js";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Ppicontainer />
   </React.StrictMode>,
   document.getElementById('root')
 );
